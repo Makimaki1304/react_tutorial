@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  background-image: url(https://rmdgames.com/wp-content/uploads/2022/04/wallpaper5-1535x818.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .App-logo {
@@ -10,11 +14,12 @@
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
+    border-radius: 50%;
+
   }
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -22,6 +27,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  
 }
 
 .App-link {
@@ -36,3 +42,44 @@
     transform: rotate(360deg);
   }
 }
+
+.header-logo{
+  font-size: 100px;
+  padding-top: 10px;
+}
+
+.geta{
+  color:chartreuse;
+}
+
+.main-logo{
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.main-logo2{
+  padding: 20px 30px;
+  color: aliceblue;
+}
+
+.news{
+  font-size: 80px;
+  color:chartreuse;
+  padding-top: 200px;
+}
+
+.news-logo{
+  font-size: 25px;
+  text-align: left;
+  padding: 25px 200px;
+  color: aliceblue;
+}
+
+.bio{
+  font-size: 25px;
+  color: aliceblue;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+>>>>>>> Stashed changes
